@@ -21,4 +21,4 @@ const posts = [
         if(post.slug == slug)
         return post
    }
-  export function getByQuery(title, content){ }
+ 
