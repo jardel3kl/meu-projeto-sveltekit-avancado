@@ -16,6 +16,6 @@
 {:else if form.erro}
 <p style="color: red;"><strong>Erro:</strong> {form.erro}</p>
 {:else if form.sucesso}
-<p style="color: green;"><strong>Sucesso;</strong> Usuário {form?.nome} cadastrado!</p>
+<p style="color: green;"><strong>Sucesso;</strong> Usuário {form.dados.nome} cadastrado!</p>
     {/if}
     

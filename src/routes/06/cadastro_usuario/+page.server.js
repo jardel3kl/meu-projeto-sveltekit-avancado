@@ -16,7 +16,7 @@ export const actions = {
     if (!dados.email.includes('@'))
     return fail(400, { erro: 'E-mail inválido!', dados })
 if (dados.senha.length < 4)
-return fail(400, { erro: 'A senha deve ter pelo menos quatro caracteres', dados })
-return {sucesso: true, nome: dados.nome }
+return fail(400, { erro: 'A senha deve ter pelo menos quatro caracteres', dados });
+return { sucesso: true, dados }
         }
-    };
+    }
