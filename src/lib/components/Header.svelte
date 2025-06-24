@@ -18,6 +18,23 @@
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="/02">Cap 02</a>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="/03">Cap 03</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/04/pokemon/[name]">Cap 04</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/05">Cap 05</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="/06/cadastro_usuario">Cap 06</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="/07/irmandades">Cap 07</a>
         </li>
       </ul>
     </div>
